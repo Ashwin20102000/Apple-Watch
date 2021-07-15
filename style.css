@@ -1,0 +1,73 @@
+*{
+    padding: 0px;
+    margin:0px;
+    letter-spacing: 0.8px;
+    font-size: 20px; 
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
+}
+img {
+	max-width: 100%;
+}
+.header-wrapper {
+	background: black; 
+	font-weight: 200;
+    font-size: 0.75em;	
+}
+.header-wrapper ul {
+	display: flex;
+  /* -webkit-box-pack: justify; */
+  justify-content: space-between;
+}
+.internal-wrapper {
+    width: 980px;
+    height: 40px;
+	padding: 0 10px;
+    margin: 0 auto;
+
+}
+.header-wrapper .header-links-wrapper ul  li a {
+	text-decoration: none;
+    color: #fff;
+    
+}
+.header-wrapper ul {
+	list-style: none;
+}
+.header-wrapper .header-links-wrapper ul  li {
+  display: inline-block;
+  padding: 14px 0 8px;
+  height: 25px;
+  opacity: 0.8;
+}
+.header-wrapper .header-links-wrapper ul  li:hover {
+	opacity: 1;
+}	
+.red-watch{
+    background-size: cover;
+}
+.apple-name{
+    display: flex;
+    flex-direction: row;
+}
+.wrapper-texts{
+    display: flex;
+    align-items: center;
+}   
+.blurable{
+    display: flex;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0, 0.4);
+    font-weight: bold;
+    z-index: 2;
+    position: fixed;
+}
+.btn{
+    /* want to work on buy buttons */
+}
+.red-watch-content{
+    text-align: center;
+    background: #000;
+}
+.series-text{
+    color: red;
+}
